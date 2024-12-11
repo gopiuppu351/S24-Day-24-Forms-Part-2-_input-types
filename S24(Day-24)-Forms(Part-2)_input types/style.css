@@ -1,0 +1,107 @@
+h1{
+    background-color: #074799;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.logo{
+    width: 180px;
+    display: flex; 
+}
+
+form{
+    background-color: #A5B68D;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+form label{
+    display: inline-block;
+    width: 230px;
+}
+
+form div{
+    margin: 15px;
+    
+}
+
+.innerLabel{
+    width: 100px;
+}
+
+.submit-button{
+    display: inline-block;
+    background-color: #79c3bd;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cancel-button{
+    display: block;
+    background-color: #eaf5ff;
+    color: dodgerblue;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.termsMargin{
+    padding: auto;
+    position: relative;
+    bottom: -50px;
+}
+
+.submitMargin{
+    margin: 70px;
+}
+
+
+
+.countryWidth{
+    width: 170px;
+} 
+
+.DOBWidth{
+    width: 165px;
+} 
+
+body{
+    width: 650px;
+    margin: 10px auto;
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
